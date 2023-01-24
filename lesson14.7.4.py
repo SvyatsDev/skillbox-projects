@@ -9,7 +9,6 @@
 
 def revers(x):
     x = str(x)
-    revers_num = ''
     int_num = ''
     float_num = ''
     temp_num = ''
