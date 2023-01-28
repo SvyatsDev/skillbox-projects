@@ -30,7 +30,7 @@ def revers(x):
         float_num = int(float_num) // 10
     float_num = temp_num
     temp_num = ''
-    new_num = float_num + '.' + int_num # здесь целая часть и плавающая меняются местами
+    new_num = float_num + '.' + int_num # здесь целая часть и дробная меняются местами
     return new_num
 
 x = float(input('Введите число с плавающей точкой: '))
