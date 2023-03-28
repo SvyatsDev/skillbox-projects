@@ -13,6 +13,9 @@ nice_list = [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[10, 11, 12], [13, 14, 15], [16
 #     for _ in range(len(nice_list[x])):
 #         for i in range(len(nice_list[x][_])):
 #             new_list.append(nice_list[x][_][i])
-new_list = [nice_list[x][_][i] for x in range(len(nice_list)) for _ in range(len(nice_list[x])) for i in range(len(nice_list[x][_]))
-]
+# new_list = [nice_list[x][_][i] for x in range(len(nice_list)) for _ in range(len(nice_list[x])) for i in range(len(nice_list[x][_]))
+# ]
+#
+new_list = [i for x in nice_list for _ in x for i in _ ]
+
 print(new_list)
