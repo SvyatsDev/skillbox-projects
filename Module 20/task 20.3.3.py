@@ -36,7 +36,7 @@ def check_object_type(text):
 
 text_list = [100, 200, 300, 'буква', 0, 2, 'а']
 text_str = 'О Дивный Новый мир!'
-text_dict = {'оля': 'пеперони', 'свят': 'моцарела', 'женя': 'грибы'}
+text_dict = {'илья': 'пеперони', 'олег': 'моцарела', 'виктор': 'грибы'}
 text_tuple = (1,2,3,4,5,6,7)
 new_text_list = check_object_type(text_list)
 new_text_str = check_object_type(text_str)
